@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./globals.css">
+    <title>Scoreboard Project</title>
+</head>
+<body>
+    <div class="main-container">
+        <div id="home-container">
+            <p class="headings">HOME</p>
+            <div class="score-container home-box">
+                <span id="home-score"></span>
+            </div>
+            <div class="btn-holders">
+                <button class="add-1 home but1" onclick="addOne()">+1</button>
+                <button class="add-2 home but2" onclick="addTwo()">+2</button>
+                <button class="add-3 home but3" onclick="addThree()">+3</button>
+            </div>
+        </div>
+        <div id="guest-container">
+            <p class="headings">GUEST</p>
+            <div class="score-container guest-box">
+                <span id="guest-score"></span>
+            </div>
+            <div class="btn-holders">
+                <button class="add-1 guest but1" onclick="addOne()">+1</button>
+                <button class="add-2 guest but2" onclick="addTwo()">+2</button>
+                <button class="add-3 guest but3" onclick="addThree()">+3</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(21, 19, 45);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#line-two {
+    color: rgb(115, 217, 115);
+}
+
+#descr {
+    color: antiquewhite;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    margin: 10px 0px 50px 0px;
+}
+
+#pw-len {
+    background-color: inherit;
+    color: inherit;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 5px;
+}
+
+#generate-btn {
+    width: 200px;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(100, 201, 100);
+    text-shadow: 0px 0px 4px rgb(112, 112, 112);
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+
+#generate-btn:hover {
+    background-color: rgb(68, 135, 68);
+}
+
+#pw-container {
+    border-top: 2px solid rgb(33, 32, 39);
+    padding-top: 40px;
+    width: 500px;
+    display: flex;
+}
+
+#pw-one {
+    margin-right: 30px;
+}
+
+.pw-holder {
+    background-color: rgb(37, 35, 56);
+    color: rgb(137, 218, 137);
+    letter-spacing: 1px;
+    text-align: center;
+    width: 200px;
+    font-size: initial;
+    font-weight: initial;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

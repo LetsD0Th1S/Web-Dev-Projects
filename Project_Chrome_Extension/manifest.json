@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "My Links Storage",
+    "version": "1.0",
+    "description": "My very first Chrome extension that stores links!",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
